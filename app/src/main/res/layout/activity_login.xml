@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:padding="30dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/lgo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70px"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Login"
+
+        android:textSize="100px"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#A9A9A9"
+        android:text="Welcome back to the app"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:textColor="@color/black"
+        android:text="Username"
+        android:textSize="20sp"></TextView>
+
+    <EditText
+        android:id="@+id/UsernameET"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/edittext_border"
+        android:hint="Enter Username"
+        android:paddingStart="20dp"
+        android:paddingEnd="16dp"
+        android:textColorHint="#A9A9A9"
+        android:textColor="#000000"
+        android:textSize="50px"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:textColor="@color/black"
+        android:text="Password"
+        android:textSize="20sp"></TextView>
+
+    <EditText
+        android:id="@+id/PasswordET"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/edittext_border"
+        android:hint="Enter Pass"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textPassword"
+        android:textColorHint="#A9A9A9"
+        android:textColor="#000000"
+        android:textSize="50px"/>
+
+    <Button
+        android:id="@+id/LoginBT"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Login"
+        ></Button>
+
+    <Button
+        android:id="@+id/RegisBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:textColor="@color/purple_500"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Didn’t have an account? Register here!"></Button>
+</LinearLayout>

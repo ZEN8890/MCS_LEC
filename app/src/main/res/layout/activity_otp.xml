@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".otpActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/lgo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70px"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Verification"
+        android:textAlignment="center"
+        android:textSize="100px"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#A9A9A9"
+        android:textAlignment="center"
+        android:text="You will get OTP via SMS"/>
+    <EditText
+        android:id="@+id/OtpET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter OTP"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:background="@drawable/edittext_border"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/VerifyBT"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify OTP" />
+</LinearLayout>
